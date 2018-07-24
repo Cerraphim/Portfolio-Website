@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MetaGame: The Game</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="metagame.css">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body> 
+	<div id="wrapper">
+	
+		<a href="index.html">
+			<header><h1>Metagame: The Game</h1></header>
+		</a>
+	<nav>
+		<div class="navflex-container">
+			<div class="mobilenav">
+				<a href="index.html">Home</a>
+			</div>
+		<ul>
+
+			<li><div class="dropdown">
+				<a href="index.html">Home</a>
+				</div>
+			</li>
+			<li><div class="dropdown">
+				<a href="game.html">Game</a>
+				<div class="dropdown-content">
+					<a href="game.html#characters">Characters</a>
+					<a href="game.html#worlds">Worlds</a>
+					<a href="game.html#environments">Environments</a>	
+					<a href="game.html#classes">Classes</a>
+					<a href="game.html#monsters">Monsters</a>
+					<a href="game.html#quests">Quests</a>				
+					</div>
+				</div>
+			</li>
+			<li><div class="dropdown">
+				<a href="blog.html">Blog</a>
+				<div class="dropdown-content">
+					<a href="blog.html#latest">Latest</a>
+					<a href="blog.html#archive">Archive</a>					
+					</div>
+				</div>
+			</li>
+
+			<li><div class="dropdown">
+				<a href="events.html">Events</a>
+				<div class="dropdown-content">
+					<a href="events.html#upcoming">Upcoming</a>
+					<a href="events.html#archive">Archive</a>				
+					</div>
+				</div>
+			</li>
+
+			<li><div class="dropdown">
+				<a href="contact.html">Contact</a>
+				<div class="dropdown-content">
+					<a href="contact.html#suggestions">Suggestions</a>
+					<a href="contact.html#feedback">Feedback</a>
+					<a href="contact.html#bugreports">Bug Reports</a>					
+					</div>
+				</div>
+			</li>
+
+			<li><div class="dropdown">
+				<a class="active" href="shop.html">Shop</a>
+				<div class="dropdown-content">
+					<a href="shop.html#ingame">In Game</a>
+					<a href="shop.html#gear">Gear</a>
+					<a href="shop.html#supportus">Support Us</a>					
+					</div>
+				</div>
+			</li>
+				
+		
+
+		</ul>
+		</div>
+	</nav>
+	<main>
+		<h2>Shop</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+
+		<img src="javashirt.jpg" class="floatleft" alt="Java Shirt">
+		<p>JavaJam shirts are comfortable to wear to school and around town. 100% cotton. XL only. $14.95</p>
+		<form method="post"
+			action="http://www.webdevfoundations.net/scripts/cart.asp">
+			<input type="hidden" name="desc1" id="desc1" value="JavaJam Shirt">
+			<input type="hidden" name="cost1" id="cost1" value="14.95">
+			<input type="submit" value="Add to Cart">
+		</form>
+		<br class="clearfloat">
+
+		<img src="javamug.jpg" class="floatleft" alt="Java Mug">
+		<p>JavaJam mugs carry a full load of caffiene (12 oz.) to jump-start your morning. $9.95</p>
+		<form method="post"
+			action="http://www.webdevfoundations.net/scripts/cart.asp">
+			<input type="hidden" name="desc2" id="desc2" value="JavaJam Mug">
+			<input type="hidden" name="cost2" id="cost2" value="9.95">
+			<input type="submit" value="Add to Cart">
+		</form>
+		<br class="clearfloat">
+
+		<div class="polaroidflex-container">
+		<a href="game.html">
+			<div class="polaroid" id="ingame">
+				<img src="game.jpg" alt="Game" style="width:100%">
+				<div class="container">
+					<h3>In-Game Purchases</h3>
+					<p>Pimp out your dude, bro.</p>
+				</div>
+			</div>
+		</a>
+
+		<a href="blog.html">
+			<div class="polaroid" id="gear">
+				<img src="game2.jpg" alt="Game" style="width:100%">
+				<div class="container">
+					<h3>Gear</h3>
+					<p>Pimp out yourself, bro.</p>
+				</div>
+			</div>
+		</a>
+
+		<a href="events.html">
+			<div class="polaroid" id="supportus">
+				<img src="game3.jpg" alt="Game" style="width:100%">
+				<div class="container">
+					<h3>Support Us</h3>
+					<p>We like money, give us some please.</p>
+				</div>
+			</div>
+		</a>
+		
+		<div class="clearfloat">
+		</div>
+ <button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+	</main>
+	<footer>
+		<div>
+			<a href="contact.html#bugreports">Support</a>
+			<a href="contact.html#feedback">Feedback</a>	
+		</div>
+		<div>
+			<a href="mailto:contact@metagame.com">Contact@MetaGame.com</a>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>

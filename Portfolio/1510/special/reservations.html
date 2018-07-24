@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Golden Eagle Bed and Breakfast Reservations</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="bedandbreakfast.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+
+	</header>
+	<nav>	
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="bio.html">Bio</a>
+			</li>
+			<li>
+				<a href="gallery.html">Gallery</a>
+			</li>
+			<li>
+				<a href="gear.html">Gear</a>
+			</li>
+			<li>
+				<a class="active" href="reservations.html">Reservations</a>
+			</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	<main>		
+		<p>Want to make a reservation at the Golden Eagle? Please submit the following reservation form. 
+			Required fields are marked with an asterisk (*).</p>
+		<form method="post" action="http://webdevbasics.net/scripts/javajam.php">
+
+			<label for="myName">*Name: </label>
+			<input type="text" name="myName" id="myName" required><br><br>
+
+			<label for="myEmail">*E-mail Address: </label>
+			<input type="email" name="myEmail" id="myEmail" required><br><br>
+
+			<label for="myPhone">*Contact Phone: </label>
+			<input type="text" name="myPhone" id="myPhone" required><br><br>
+
+			<label for="myArrivalDate">*Arrival Date:</label>
+			<input type="date" name="myArrivalDate" id="myArrivalDate"><br><br>
+
+			<label for="myDepartureDate">*Departure Date:</label>
+			<input type="date" name="myDepartureDate" id="myDepartureDate" required><br><br>
+
+			<label for="myGuests">*Number of Guests: </label>
+			<input type="text" name="myGuests" id="myGuests" required><br><br>
+
+			<label for="myMessage">Messages: </label><br>
+			<textarea name="myMessage" id="myMessage" cols="20" rows="2"></textarea><br><br>
+
+			<input type="submit" value="Submit Reservation" id="mySubmit">
+		</form>
+	</main>
+	<footer>
+		<div>
+			<img src="logoblack.png" height="75" width="146" alt="Bed and Breakfast" class="floatleft">
+			2875 Old Milton Parkway<br>
+			Alpharetta, GA 30009<br>
+            		<a id="mobile" href="tel:678-491-4948">678-491-4948</a>
+            		<span id="destop">678-491-4948</span>
+			<br>
+			Copyright &copy; 2016 Golden Eagle Bed and Breakfast<br>
+			<a href="mailto:MichaelLeggett@MichaelLeggett.com">MichaelLeggett@MichaelLeggett.com</a>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>

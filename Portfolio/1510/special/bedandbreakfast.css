@@ -1,0 +1,127 @@
+header {
+	background-color: #ffffff; 
+	background-image: url(logo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain; 
+	height: 150px;
+	}
+nav	{
+	border: 5px double #008040;
+	border-radius: 5px;
+	}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #b3d1ff;
+	}
+nav li {
+	float: left;
+	}
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #000000;
+	}
+nav li a:hover:not(.active) {
+	background-color: #3385ff;
+	}
+nav li a:active {
+	background-color: #b3d1ff;
+	}
+.active	{
+	background-color: #003380;
+	color: #ffffff;
+	}
+.floatright {
+	float: right;
+	padding-left: 10px;
+	}
+.floatleft {
+	float: left;
+	padding-right: 10px;
+	}
+#wrapper {
+	width: 80%; 
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffff; 
+	border: 5px double #008040;
+	border-radius: 15px;
+	padding: 10px;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 5px 5px 5px #828282;
+	}
+body {
+	background-color: #e6f0ff;
+	}
+main	{
+	padding: 10px;
+	}
+footer {
+	clear: both;
+	background-color: #b3d1ff; 
+	color: #000000; 
+	height: 75px;
+	font-size: .60em; 
+	font-style: italic;
+	padding: 10px;
+	text-align: left;
+	border: 5px double #008040;
+	border-radius: 5px;
+	}
+footer a:link {
+	color: #000000;
+	}
+footer a:hover{
+	color: #ffffff;
+	}
+div {
+	clear: both;
+	padding-bottom: 10px;
+	}
+table img {
+	border: 5px double #008040;
+	border-radius: 5px;
+	padding: 10px;
+	}
+.sale 	{
+	border: 5px double #008040;
+	}
+@media only screen and (max-width: 768px) {
+	nav a {
+		display: block;
+		padding: 0.2em;
+		width: auto;
+		border-bottom: 1px;
+		border-color: #330000;	
+	}
+	nav li {
+		display: block;	
+	}
+	h2 {
+		padding-top: 0.2em;
+		padding-right: 0;
+		padding-bottom: 0;
+		padding-left: 0.2em;
+		margin-right: 0.5em;	
+	}
+	.details {
+		padding-left: 0;
+		padding-right: 0;	
+	}
+	.floatright {
+		display: none;	
+	}
+	.floatleft {
+		display: none;
+	}
+	#mobile {display: inline; }
+	#desktop {display: none; }
+	}

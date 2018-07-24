@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MetaGame: The Game</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="metagame.css">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body> 
+	<div id="wrapper">
+	
+		<a href="index.html">
+			<header><h1>Metagame: The Game</h1></header>
+		</a>
+	<nav>
+		<div class="navflex-container">
+			<div class="mobilenav">
+				<a href="index.html">Home</a>
+			</div>
+		<ul>
+
+			<li><div class="dropdown">
+				<a href="index.html">Home</a>
+				</div>
+			</li>
+			<li><div class="dropdown">
+				<a href="game.html">Game</a>
+				<div class="dropdown-content">
+					<a href="game.html#characters">Characters</a>
+					<a href="game.html#worlds">Worlds</a>
+					<a href="game.html#environments">Environments</a>	
+					<a href="game.html#classes">Classes</a>
+					<a href="game.html#monsters">Monsters</a>
+					<a href="game.html#quests">Quests</a>				
+					</div>
+				</div>
+			</li>
+			<li><div class="dropdown">
+				<a href="blog.html">Blog</a>
+				<div class="dropdown-content">
+					<a href="blog.html#latest">Latest</a>
+					<a href="blog.html#archive">Archive</a>					
+					</div>
+				</div>
+			</li>
+
+			<li><div class="dropdown">
+				<a href="events.html">Events</a>
+				<div class="dropdown-content">
+					<a href="events.html#upcoming">Upcoming</a>
+					<a href="events.html#archive">Archive</a>				
+					</div>
+				</div>
+			</li>
+
+			<li><div class="dropdown">
+				<a class="active" href="contact.html">Contact</a>
+				<div class="dropdown-content">
+					<a href="contact.html#suggestions">Suggestions</a>
+					<a href="contact.html#feedback">Feedback</a>
+					<a href="contact.html#bugreports">Bug Reports</a>					
+					</div>
+				</div>
+			</li>
+
+			<li><div class="dropdown">
+				<a href="shop.html">Shop</a>
+				<div class="dropdown-content">
+					<a href="shop.html#ingame">In Game</a>
+					<a href="shop.html#gear">Gear</a>
+					<a href="shop.html#supportus">Support Us</a>					
+					</div>
+				</div>
+			</li>
+				
+		
+
+		</ul>
+		</div>
+	</nav>
+	<main>
+
+		<h2>Contact Us</h2>
+		<div class="contactcard">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+
+		<form method="post" action="http://webdevbasics.net/scripts/javajam.php">
+			<label for="myName">*Name: </label>
+			<input type="text" name="myName" id="myName" required>
+			<br>
+
+			<label for="myEmail">*E-mail: </label>
+			<input type="email" name="myEmail" id="myEmail" required>
+			<br>
+
+			<label for="myExperience">*Experience: </label>
+			<textarea name="myExperience" id="myExperience" cols="20" rows="2" required></textarea>
+			<br>
+
+			<input type="submit" value="Submit Form" id="mySubmit">
+		</form>
+		</div>
+
+		<div class="polaroidflex-container">
+		<a href="contact.html#suggestions">
+			<div class="polaroid" id="suggestions">
+				<img src="game.jpg" alt="Game" style="width:100%">
+				<div class="container">
+					<h3>Suggestions</h3>
+					<p>What would you like to see?</p>
+				</div>
+			</div>
+		</a>
+
+		<a href="contact.html#feedback">
+			<div class="polaroid" id="feedback">
+				<img src="game2.jpg" alt="Game" style="width:100%">
+				<div class="container">
+					<h3>Feedback</h3>
+					<p>How do you feel we're doing?</p>
+				</div>
+			</div>
+		</a>
+
+		<a href="contact.html#bugreports">
+			<div class="polaroid" id="bugreports">
+				<img src="game3.jpg" alt="Game" style="width:100%">
+				<div class="container">
+					<h3>Bug Reports</h3>
+					<p>What's broken?</p>
+				</div>
+			</div>
+		</a>
+		
+		<div class="clearfloat">
+		</div>
+ <button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+	</main>
+	<footer>
+		<div>
+			<a href="contact.html#bugreports">Support</a>
+			<a href="contact.html#feedback">Feedback</a>	
+		</div>
+		<div>
+			<a href="mailto:contact@metagame.com">Contact@MetaGame.com</a>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>

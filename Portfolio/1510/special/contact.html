@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Golden Eagle Bed and Breakfast Contact</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="bedandbreakfast.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body>
+	<div id="wrapper">
+	<header>
+
+	</header>
+	<nav>	
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="bio.html">Bio</a>
+			</li>
+			<li>
+				<a href="gallery.html">Gallery</a>
+			</li>
+			<li>
+				<a href="gear.html">Gear</a>
+			</li>
+			<li>
+				<a href="reservations.html">Reservations</a>
+			</li>
+			<li>
+				<a  class="active" href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	<main>	
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div class="floatright" style='overflow:hidden;height:400px;width:400px;'>
+		<div id='gmap_canvas' style='height:400px;width:400px;'></div>
+		<div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div>
+		<div><small><a href="http://www.autohuren.world/">auto huren</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+		<script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(34.07098634427535,-84.28082188786618),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(34.07098634427535,-84.28082188786618)});infowindow = new google.maps.InfoWindow({content:'<strong>Golden Eagle Location</strong><br>2875 Old Milton parkway<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+		<h2>Contact Us</h2>	
+		<p>
+			2875 Old Milton Parkway<br>
+			Alpharetta, GA 30009<br>
+			678-491-4948<br>
+		</p>
+	</main>
+	<footer>
+		<div>
+			<img src="logoblack.png" height="75" width="146" alt="Bed and Breakfast" class="floatleft">
+			2875 Old Milton Parkway<br>
+			Alpharetta, GA 30009<br>
+            		<a id="mobile" href="tel:678-491-4948">678-491-4948</a>
+            		<span id="destop">678-491-4948</span>
+			<br>
+			Copyright &copy; 2016 Golden Eagle Bed and Breakfast<br>
+			<a href="mailto:MichaelLeggett@MichaelLeggett.com">MichaelLeggett@MichaelLeggett.com</a>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>

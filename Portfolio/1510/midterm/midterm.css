@@ -1,0 +1,107 @@
+body {
+	background-color: #ecf2f8; 
+	color: #000000; font-family: Verdana;
+	}
+header {
+	background-color: #d9e6f2; 
+	background-image: url(roofingbackground.jpg);
+	background-position: center;
+	color: #b3cde5; 
+	height: 100px;
+	font-size: 30px;
+	text-shadow: 5px 5px #21415f;
+	font-family: lucida;
+	}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	}
+nav a {
+	text-decoration: none;
+	padding-bottom: 15px;
+	}
+nav a:link {
+	color: #000000;
+	}
+nav a:hover {
+	color: #ffffff;
+	background-color: #2d5986;
+	}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #94b3d1;
+	}
+nav li {
+	float: left;
+	}
+nav li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	}
+main {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #d9e6f2;
+	color: #000000;
+	overflow: auto;
+	}
+.floatright {
+	float: right;
+	padding-left: 20px;
+	}
+.floatleft {
+	float: left;
+	padding-right: 20px;
+	padding-left: 10px;
+	}
+footer {
+	background-color: #94b3d1; 
+	color: #000000; 
+	font-size: .60em; 
+	font-style: italic;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	}
+footer a:link {
+	color: #000000;
+	}
+footer a:hover{
+	color: #ffffff;
+	}
+#wrapper {
+	width: 100%; 
+	margin-right: auto; 
+	margin-left: auto;
+	background-color: #000000; 
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 5px 5px 5px #828282;
+	}
+.details {
+	padding-left: 20%;
+	padding-right: 20%;
+	overflow: auto;
+	}
+img {
+	border: 0px;
+	}
+table {
+	border: 5px;
+	padding: 10px;
+	width: 500px;
+	}
+
+header, nav, main, footer {
+	display: block;
+	}

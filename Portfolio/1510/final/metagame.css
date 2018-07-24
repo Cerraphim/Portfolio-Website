@@ -1,0 +1,290 @@
+/* Style Navigation Bar */
+nav	{
+	padding-top: 10px;
+	width: 100%;
+	}
+nav ul {
+    	list-style-type: none;
+    	margin: auto;
+	padding: 0;
+	}
+nav li {
+	display: inline-block;
+	width: 120px;
+	margin: 10px;
+	border: 1px solid #000000;
+	box-shadow: 0 0 10px 5px grey, 0 0 5px 0 black;
+	}
+nav li a {
+    	display: block;
+    	color: black;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+    	background-color: #b3b3b3;
+	}
+nav li a:hover {
+    	background-color: #666666;
+	color: white;
+	box-shadow: 0 0px 20px 0 black, 0 0 10px 0 blue;
+	}
+nav li a.active {
+    	background-color: #000000;
+	color: white;
+	box-shadow: 0 0px 20px 0 black, 0 0 10px 0 blue;
+	}
+
+/* Style Dropdown Menus */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #b3b3b3;
+	}
+.dropdown-content a {
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	margin-left: -1px;
+	width: 88px;
+	}
+.dropdown-content a:last-child {
+	border-bottom: 1px solid #000000;
+	}
+.dropdown:hover .dropdown-content {
+	display: block;	
+	}
+
+/* Style Main Wrapper */
+#wrapper 	{
+	width: 80%;
+	background-color: white;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 20px 5px black;
+	}
+
+/* Style Page Segments */
+body	{
+	background-color: black;
+	background-image: url("landscape.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 2400px;
+	}
+header	{
+	background-color: white;
+	border: 1px solid black;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	text-shadow: 0 0 10px black, 0 0px 5px blue, 0 0 15px green;
+	text-align: center;
+	background-image: url("game.jpg");
+	box-shadow: 0 5px 5px 5px grey, 0 0 5px 0 black;
+	}
+header:hover	{
+	box-shadow: 0 0px 20px 0 black, 0 0 10px 0 blue;	
+	}
+header:active	{
+	box-shadow: 0 0px 20px 0 black, 0 0 10px 0 blue;	
+	}
+a {
+	text-decoration: none;
+	}
+footer	{
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px;
+	clear: both;
+	text-align: center;
+	box-shadow: 0 5px 20px 5px grey, 0 0 5px 0 black;
+	}
+main 	{
+	background-color: white;
+	}
+form {
+	text-align: center;
+	}
+/* Style Column Separations */
+.floatleft {		
+	float: left;
+
+	}
+.floatright	{
+	float: right;
+
+	}
+.clearfloat	{
+	clear: both;
+	padding: 10px;
+	}
+
+/* Style Topic Polaroids */
+.polaroid	{
+	width: 250px;
+	height: 250px;
+	box-shadow: 0 5px 20px 5px grey, 0 0 5px 0 black;
+	text-align: center;
+	display: inline-block;
+	margin: 23px;
+	border: 1px solid black;	
+	}
+.polaroid img {
+	height: 120px;
+	}
+.container	{
+	padding: 10px;
+	color: black;
+	}
+/* Style Topic Polaroids WIDE*/
+.polaroidwide	{
+	width: 100%;
+	height: 200px;
+	box-shadow: 0 5px 20px 5px grey, 0 0 5px 0 black;
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	border: 1px solid black;	
+	}
+.polaroidwide img {
+	width: 30%;
+	height: 100%;
+	border: 1px solid black;
+	}
+.containerwide	{
+	padding: 10px;
+	color: black;
+	}
+.establishingshot img {
+	box-shadow: 0 5px 20px 5px grey, 0 0 5px 0 black;
+	border: 1px solid black;
+	height: 600px;
+	}
+.establishingshot img:hover {
+	box-shadow: 0 0px 20px 0 black, 0 0 10px 0 blue;	
+	}
+.polaroid:hover {
+	box-shadow: 0 0px 20px 0 black, 0 0 10px 0 blue;	
+	}
+.polaroid:active {
+	box-shadow: 0 0px 20px 0 black, 0 0 10px 0 blue;	
+	}
+.navflex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	}
+.polaroidflex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+	width: 100%;
+	margin: auto;
+	}
+.polaroidwide:hover {
+	box-shadow: 0 0px 20px 0 black, 0 0 10px 0 blue;	
+	}
+.calendar {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+	margin: auto;
+	width: 100%;
+	border: 1px solid black;
+	box-shadow: 0 5px 20px 5px grey, 0 0 5px 0 black;
+	}
+table {
+	width: 100%;
+	}
+.contactcard {
+	border: 1px solid black;
+	box-shadow: 0 5px 20px 5px grey, 0 0 5px 0 black;	
+	padding: 10px;
+	}
+nav .mobilenav {
+	display: none;
+	}
+main h2 {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	text-shadow: 0 0 20px black, 0 0 15px blue, 0 0 15px green;
+	}
+main p {
+	text-align: center;
+	}
+.containerwide h3 {
+	font-size: 30px;
+	color: white;
+	margin: 5px;
+	text-shadow: 0 0 20px black, 0 0 15px blue, 0 0 15px green;
+	}
+.blogpost {
+	list-style-type: none;
+	padding: 5px;
+	border: 1px solid black;
+	box-shadow: 0 5px 20px 5px grey, 0 0 5px 0 black;	
+	}
+main li {
+	margin-top: 20px;
+	}
+.polaroid .container h3 {
+	margin-top: 0;
+	}
+@media screen and (max-width:680px) {
+	header {
+		font-size: 15px;
+		background-position: center;
+		padding: 0;
+		}
+	nav ul li a {
+		display: none;
+		}
+	nav ul {
+		display: none;
+		}
+	nav li {
+		box-shadow: 0 0 0 0 grey, 0 0 0 0 black;
+		padding-bottom: 0;
+		margin: 0;
+		margin-bottom: 0;	
+		}
+	#wrapper {
+		width: 95%;
+		}
+	nav .mobilenav {
+		display: inline-block;
+		background-color: grey;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		width: 100%;
+		border: 1px solid black;
+		}
+	nav .mobilenav a {
+		display: block;
+		width: 100px;
+		text-align: center;
+		color: white;
+		background-color: black;
+		text-decoration: none;
+		font-size: 30px;
+		border-right: 1px solid black;
+		overflow: hidden;
+		}
+	}

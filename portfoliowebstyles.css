@@ -1,0 +1,395 @@
+﻿body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+#BG1 {
+    background-image: url(Portrait-cut-BW-50.jpg);
+    height: 750px;
+    overflow: hidden;
+    background-size: 950px 1080px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    border-bottom: 1px solid rgb(33,125,187);
+}
+#BG2 {
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(33,125,187);
+}
+#BG3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid rgb(33,125,187);
+    background-color: white;
+    background-image: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header_box {
+    background-color: rgba(33,125,187,0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.color_filter {
+    background-color: rgba(33,125,187,0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+#BG4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid rgb(33,125,187);
+    background-color: white;
+    padding-bottom: 50px;
+}
+#BG5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #90BEDD;
+    padding-bottom: 50px;
+}
+#BG6 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 50px;
+}
+#BG7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #90BEDD;
+    padding-bottom: 50px;
+}
+#BG8 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    padding-bottom: 50px;
+}
+.title_panel {
+    height: 1080px;
+    background-color: rgba(33,125,187,0.5);
+    padding-top: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    border: 0px;
+    padding: 0px;
+    vertical-align: central;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    letter-spacing: .1em;
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+    display: inline-block;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+    padding: 2px 4px 2px 4px;
+    margin: 0 4px 4px 0;
+    border-radius: 5px;
+    border: 2px solid rgb(255,255,255);
+    transition: color 500ms, background-color 500ms border 500ms;
+}
+nav li a:hover {
+    color: rgb(47, 47, 153);
+    background-color: white;
+    border: 2px solid rgb(47, 47, 153);
+}
+.nameplate {
+    float: left;
+    padding-left: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border 1px solid black;
+}
+.name_text {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 75px;
+    letter-spacing: .1em;
+    font-weight: 900;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(47, 47, 153);
+}
+.title_text {
+    color: rgb(47, 47, 153);
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    letter-spacing: .1em;
+}
+#btn_download {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgba(255,255,255,0);
+    border: 3px solid white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 500ms, background-color 500ms border 500ms;
+}
+#btn_download:hover {
+    color: rgb(47, 47, 153);
+    background-color: white;
+    border: 3px solid rgb(47, 47, 153);
+}
+.header_text {
+    color: rgb(47, 47, 153);
+    margin: 0;
+    padding: 20px;
+    font-size: 35px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+#about_paragraph {
+    color: rgb(47, 47, 153);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.experience_box {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.employment_box:hover {
+    background-color: rgba(255,255,255, 0.75);
+    transform: scale(1.05);
+    transition: background-color 1s transform 1s;
+}
+.employment_dates {
+    width: 40%;
+    text-align: right;
+    vertical-align: central;
+    text-wrap: none;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+    color: rgba(255,255,255, 0.90);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    
+}
+.employment_box {
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(255,255,255, 0.25);
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px 0px black;
+    width: 40%;
+    margin: 20px;
+    border-radius: 5px;
+}
+.employer {
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+.job_position {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.job_description {
+    padding: 0;
+    margin: 0;
+}
+.timeline {
+    height: 100%;
+    width: 5px;
+    max-width: 5px;
+    min-width: 5px;
+    background-color: rgba(255,255,255,0.5);    
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.education_box {
+    color: rgb(47, 47, 153);
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border: 1px solid rgb(33,125,187);
+    box-shadow: 3px 3px 10px 5px black;
+    border-radius: 5px;
+    width: 60%;
+    height: 150px;
+}
+#college_logo {
+    float: right;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.skills {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.skills li {
+    color: rgb(47, 47, 153);
+    text-decoration: solid;
+    text-align: center;
+    padding: 2px 4px 2px 4px;
+    margin: 8px 8px 8px 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid rgb(47, 47, 153);
+}
+.projects_window {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project_box {
+    padding: 0;
+    background-color: white;
+    border: 1px solid rgb(33,125,187);
+    max-width: 500px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.project_outline_box {
+    padding: 5px 10px 5px 10px;
+}
+#icon {
+    position: absolute;
+    transform: translateX(-32px);  
+}
+#contact_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    height: 300px;
+}
+#subject_field {
+    width: 100%;
+    height: 100%;
+}
+#email_field {
+    color: rgb(47, 47, 153);
+    width: 100%;
+    line-height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#message_field {
+    color: rgb(47, 47, 153);
+    width: 100%;
+    line-height: 20px;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#btn_send {
+    color: rgb(47, 47, 153);
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.socialmedia_buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.socialmedia_buttons ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.socialmedia_buttons li {
+    display: inline-block;
+    padding: 20px;
+}
+.socialmedia_buttons li a {
+    font-size: 50px;
+    display: inline-block;
+    padding: 5px;
+    color: black;
+    background-color: #90BEDD;
+    text-decoration: solid;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid rgb(47, 47, 153);
+}
+#logo_image {
+    opacity: 1.0;
+    width: 80px;
+
+}
